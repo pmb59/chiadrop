@@ -3,7 +3,6 @@
 #
 # Input: FASTQ file with R1 reads
 #
-#
 
 args = commandArgs(trailingOnly=TRUE)
 
