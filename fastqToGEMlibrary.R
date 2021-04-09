@@ -1,8 +1,8 @@
-################################################################
-# Create GEMcode library from FASTQ file (R1) for 1 sample
+##########################################################################################
+# This script creates a GEMcode library file from a FASTQ file (R1) for 1 sample
 #
 # Input: FASTQ file with R1 reads
-################################################################
+##########################################################################################
 args = commandArgs(trailingOnly=TRUE)
 
 library(ShortRead)
