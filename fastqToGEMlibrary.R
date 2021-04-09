@@ -14,8 +14,6 @@ outFile   <- args[2]
 
 x <- readFastq(fastqfile, full=TRUE, withIds=TRUE)  
 
-N <- length( sread(x ))
-
 A <- substr(x= as.character(sread(x) ) , start=1, stop=16  ) 
 
 B <- lapply( as.character(id(x)) , strsplit, split=" ", fixed=TRUE )
