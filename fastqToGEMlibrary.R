@@ -37,6 +37,12 @@ length(B)
 
 # The output returns 2 columns: GEMcode and ReadID
 write.table(x=cbind(A,B), file = outFile, append = TRUE, quote = FALSE, sep = "\t", row.names = FALSE, col.names = FALSE)
+# Example:
+#GGTATTGAGGTAGCTG	NB501241:284:HJNWLBGXB:1:11101:21567:1115
+#CGATGGCGTTATCACG	NB501241:284:HJNWLBGXB:1:11101:18967:1127
+#CGATCAACAGACGTAG	NB501241:284:HJNWLBGXB:1:11101:14287:1128
+#AGCAGTTAGCGTTGTT	NB501241:284:HJNWLBGXB:1:11101:18807:1150
+#....
 
 #check at the end that IDs are unique
 print( length(unique(  A  )) )
@@ -46,3 +52,4 @@ print( N )
 
 rm(A)
 rm(B)
+
