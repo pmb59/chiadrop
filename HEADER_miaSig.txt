@@ -1,0 +1,1 @@
+GEM_ID	GEM_coordinate  GEM_span	Fragment_number	List_of_fragment_coordinates
