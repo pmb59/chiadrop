@@ -1,1 +1,1 @@
-Rscript 03_processBED.R
+Rscript processBED.R
