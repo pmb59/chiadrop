@@ -4,4 +4,4 @@ Code for the analysis of ChIA-Drop data with ab immnuprecititation (e.g. CTCF or
 
 
 <h3>Contact:</h3> 
-pmb59(AT)cam.ac.uk
+pmb59(at)cam.ac.uk
