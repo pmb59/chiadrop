@@ -1,1 +1,1 @@
-Rscript processBED.R
+Rscript --vanilla processBED.R
