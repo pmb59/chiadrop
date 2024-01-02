@@ -4,6 +4,7 @@ authors:
 - family-names: "Madrigal"
   given-names: "Pedro"
   orcid: "https://orcid.org/0000-0003-1959-8199"
+title: "ChIA-drop Data Analysis in R - Multiplex chromatin interactions with single-molecule precision"
 version: 1.0.0
 date-released: 2024-01-02
 url: "https://github.com/pmb59/chiadrop"
